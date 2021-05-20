@@ -3042,6 +3042,13 @@
   dependencies:
     "ms" "2.0.0"
 
+"debug@^2.5.2":
+  "integrity" "sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA=="
+  "resolved" "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz"
+  "version" "2.6.9"
+  dependencies:
+    "ms" "2.0.0"
+
 "debug@^3.1.1":
   "integrity" "sha512-mel+jf7nrtEl5Pn1Qx46zARXKDpBbvzezse7p7LqINmdoIk8PYP5SySaxEmYv6TZ0JyEKA1hsCId6DIhgITtWQ=="
   "resolved" "https://registry.npmjs.org/debug/-/debug-3.2.6.tgz"
@@ -4625,6 +4632,17 @@
     "section-matter" "^1.0.0"
     "strip-bom-string" "^1.0.0"
 
+"gridsome-plugin-manifest@^0.3.5":
+  "integrity" "sha512-spUUJ7Ey6IjmRt/7FUuprlgNNr4hnbXEX2oa7cqO1pLF9sg+UuOheXVfTe2OkSw/KBkiHh6/etADIY+jdYXE2w=="
+  "resolved" "https://registry.npmjs.org/gridsome-plugin-manifest/-/gridsome-plugin-manifest-0.3.5.tgz"
+  "version" "0.3.5"
+  dependencies:
+    "is-hexcolor" "1.*"
+    "mime-types" "2.*"
+    "mkdirp" "1.*"
+    "rename" "1.*"
+    "sharp" "^0.25.0"
+
 "gridsome-plugin-tailwindcss@^3.0.1":
   "integrity" "sha512-t2ZzQzPSfXGM2z5KLBeGqtb6s7CL7lGMTY5uELz4gY7AaChn7vtarPLAP3/E2mS67agGBFs8p6YG7U/QtBCYMA=="
   "resolved" "https://registry.npmjs.org/gridsome-plugin-tailwindcss/-/gridsome-plugin-tailwindcss-3.0.1.tgz"
@@ -4636,7 +4654,7 @@
     "postcss-preset-env" "^6.7.0"
     "tailwindcss" ">=1.4"
 
-"gridsome@^0.7.0", "gridsome@0.x":
+"gridsome@^0.7.0", "gridsome@0.*", "gridsome@0.x":
   "integrity" "sha512-2/koBt4YWoTKRQR+7Gy84EHbNTa9y6JgRjBO84wOpZjEWglwxDh0cFAq8QbhHnf13mXbJVRm5aHBESO5iD5BcA=="
   "resolved" "https://registry.npmjs.org/gridsome/-/gridsome-0.7.23.tgz"
   "version" "0.7.23"
@@ -4886,6 +4904,11 @@
   "integrity" "sha512-l9sfDFsuqtOqKDsQdqrMRk0U85RZc0RtOR9yPI7mRVOa4FsR/BVnZ0shmQRM96Ji99kYZP/7hn1cedc1+ApsTQ=="
   "resolved" "https://registry.npmjs.org/hex-color-regex/-/hex-color-regex-1.1.0.tgz"
   "version" "1.1.0"
+
+"hex-color-regex@~1.0.2":
+  "integrity" "sha1-IXVpO8KS/gZxGwT67pAEeQkm+bA="
+  "resolved" "https://registry.npmjs.org/hex-color-regex/-/hex-color-regex-1.0.3.tgz"
+  "version" "1.0.3"
 
 "hirestime@^3.2.1":
   "integrity" "sha512-X+4w5O6JMW7zlgAhad6OPA/MwYTW1FqrF27+6ItRUmDT4jklsXd4N5S5hNCmd9AIGVp8SLsCoGwRe5ddBp/CKg=="
@@ -5483,6 +5506,13 @@
   "integrity" "sha512-gyPJuv83bHMpocVYoqof5VDiZveEoGoFL8m3BXNb2VW8Xs+rz9kqO8LOQ5DH6EsuvilT1ApazU0pyl+ytbPtlw=="
   "resolved" "https://registry.npmjs.org/is-hexadecimal/-/is-hexadecimal-1.0.4.tgz"
   "version" "1.0.4"
+
+"is-hexcolor@1.*":
+  "integrity" "sha1-SV/uGhK6rwCcECp5m97DGTIRJ0o="
+  "resolved" "https://registry.npmjs.org/is-hexcolor/-/is-hexcolor-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "hex-color-regex" "~1.0.2"
 
 "is-installed-globally@^0.3.1":
   "integrity" "sha512-wZ8x1js7Ia0kecP/CHM/3ABkAmujX7WPvQk6uu3Fly/Mk44pySulQpnHG46OMjHGXApINnV4QhY3SWnECO2z5g=="
@@ -6333,7 +6363,7 @@
   "resolved" "https://registry.npmjs.org/mime-db/-/mime-db-1.44.0.tgz"
   "version" "1.44.0"
 
-"mime-types@^2.1.12", "mime-types@^2.1.21", "mime-types@~2.1.19", "mime-types@~2.1.24":
+"mime-types@^2.1.12", "mime-types@^2.1.21", "mime-types@~2.1.19", "mime-types@~2.1.24", "mime-types@2.*":
   "integrity" "sha512-JIhqnCasI9yD+SsmkquHBxTSEuZdQX5BuQnS2Vc7puQQQ+8yiP5AY5uWhpdv4YL4VM5c6iliiYWPgJ/nJQLp7w=="
   "resolved" "https://registry.npmjs.org/mime-types/-/mime-types-2.1.27.tgz"
   "version" "2.1.27"
@@ -6463,6 +6493,11 @@
     "minimist" "^1.2.5"
 
 "mkdirp@^1.0.3":
+  "integrity" "sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw=="
+  "resolved" "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
+  "version" "1.0.4"
+
+"mkdirp@1.*":
   "integrity" "sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw=="
   "resolved" "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
   "version" "1.0.4"
@@ -8511,6 +8546,13 @@
   "resolved" "https://registry.npmjs.org/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz"
   "version" "1.1.0"
 
+"rename@1.*":
+  "integrity" "sha1-oPJQePpBleZQ9zBQx8Esz2ifQws="
+  "resolved" "https://registry.npmjs.org/rename/-/rename-1.0.4.tgz"
+  "version" "1.0.4"
+  dependencies:
+    "debug" "^2.5.2"
+
 "renderkid@^2.0.1":
   "integrity" "sha512-z8CLQp7EZBPCwCnncgf9C4XAi3WR0dv+uWu/PjIyhhAb5d6IJ/QZqlHFprHeKT+59//V6BNUsLbvN8+2LarxGA=="
   "resolved" "https://registry.npmjs.org/renderkid/-/renderkid-2.0.3.tgz"
@@ -8870,7 +8912,7 @@
     "inherits" "^2.0.1"
     "safe-buffer" "^5.0.1"
 
-"sharp@^0.25.2":
+"sharp@^0.25.0", "sharp@^0.25.2":
   "integrity" "sha512-umSzJJ1oBwIOfwFFt/fJ7JgCva9FvrEU2cbbm7u/3hSDZhXvkME8WE5qpaJqLIe2Har5msF5UG4CzYlEg5o3BQ=="
   "resolved" "https://registry.npmjs.org/sharp/-/sharp-0.25.4.tgz"
   "version" "0.25.4"

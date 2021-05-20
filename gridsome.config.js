@@ -20,6 +20,17 @@ module.exports = {
       }
     },
     {
+      use: "gridsome-plugin-manifest",
+      options: {
+        background_color: "#455864",
+        icon_path: "./static/logos/sq-rn.png",
+        name: "Sagiri Dev",
+        short_name: "Sagiri",
+        theme_color: "#455864",
+        lang: "en",
+      },
+    },
+    {
       use: 'gridsome-plugin-tailwindcss',
     }
   ],

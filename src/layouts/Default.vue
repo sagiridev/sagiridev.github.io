@@ -1,5 +1,5 @@
 <template>
-  <div class="text-gray-200 bg-indigo-900 min-h-screen bg-cover bg-center bg-no-repeat bg-fixed" style="background-image:url('/sagiri-greenmapple17.png')">
+  <div class="text-gray-200 bg-gray-700 min-h-screen bg-cover bg-center bg-no-repeat bg-fixed" style="background-image:url('/sagiri-greenmapple17.png')">
 
     <!-- Header & Navigation -->
     <header class="p-6 flex flex-col md:flex-row items-center justify-between text-center">

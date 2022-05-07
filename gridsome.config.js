@@ -6,7 +6,8 @@
 
 module.exports = {
   siteName: 'Sagiri Dev',
-  siteUrl: 'https://sagiridev.github.io',
+  siteUrl: 'https://thymedev.github.io',
+  pathPrefix: '/sagiri',
   siteDescription: 'A cute Discord bot who will love you and call you onii-chan :)',
   templates: {
     Post: '/blog/:title'
